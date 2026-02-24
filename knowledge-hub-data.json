@@ -59,16 +59,16 @@
     {
       "id": "n1",
       "folderId": "f1",
-      "title": "Welcome to Knowledge Hub",
+      "title": "Project Ideas",
       "type": "notes",
-      "content": "# Welcome! 👋\n\nThis is your personal knowledge hub.\n\n## Features\n- 📝 **Notes** - Write in Markdown\n- 💻 **Commands** - Store code snippets\n- 🔗 **Links** - Bookmark resources\n- 🤖 **Prompts** - AI prompt templates\n\n## Cloud Sync\nYour data syncs automatically!\n- Data loads from cloud when you open this page\n- Go to **Settings → Sync** to enable saving\n\n---\n> Start organizing your knowledge!",
+      "content": "# Project Ideas\n\n## Knowledge Hub\nA personal knowledge management system with:\n- Notes with Markdown support\n- Command snippets\n- Link collections\n- AI prompt library\n\n## Features\n- **Sync** via GitHub\n- **Dark/Light** theme\n- **Offline** support with LocalStorage\n\n```javascript\nconst hub = new KnowledgeHub({\n  sync: true,\n  theme: \"dark\"\n});\n```\n\n> Start small, iterate fast.\n",
       "tags": [
         "project",
         "ideas"
       ],
       "isFavorite": false,
       "createdAt": "2026-02-24T13:11:42.651Z",
-      "updatedAt": "2026-02-24T14:03:32.665Z"
+      "updatedAt": "2026-02-24T14:11:25.692Z"
     },
     {
       "id": "n2",
@@ -116,6 +116,17 @@
       "id": "irashlng0mm0oemzi",
       "createdAt": "2026-02-24T14:03:35.262Z",
       "updatedAt": "2026-02-24T14:03:41.709Z"
+    },
+    {
+      "folderId": "f1",
+      "title": "6",
+      "content": "# New Note\n\nStart writing...",
+      "tags": [],
+      "isFavorite": false,
+      "type": "notes",
+      "id": "baq86mtf8mm0ooxrp",
+      "createdAt": "2026-02-24T14:11:35.797Z",
+      "updatedAt": "2026-02-24T14:11:40.901Z"
     }
   ],
   "commands": [
@@ -329,5 +340,5 @@
       "isExpanded": true
     }
   ],
-  "exportedAt": "2026-02-24T14:03:59.478Z"
+  "exportedAt": "2026-02-24T14:11:55.741Z"
 }
