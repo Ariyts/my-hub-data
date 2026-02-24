@@ -217,7 +217,7 @@
           "url": "https://react.dev",
           "title": "React Documentation",
           "description": "Official React docs",
-          "favicon": "ÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂ¯ÃÂÃÂ¸ÃÂÃÂ",
+          "favicon": "ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¯ÃÂÃÂÃÂÃÂ¸ÃÂÃÂÃÂÃÂ",
           "tags": [
             "react",
             "docs"
@@ -229,7 +229,7 @@
           "url": "https://tailwindcss.com",
           "title": "Tailwind CSS",
           "description": "Utility-first CSS framework",
-          "favicon": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂ¨",
+          "favicon": "ÃÂÃÂÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨",
           "tags": [
             "css",
             "tailwind"
@@ -241,7 +241,7 @@
           "url": "https://vitejs.dev",
           "title": "Vite",
           "description": "Next generation frontend tooling",
-          "favicon": "ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ¡",
+          "favicon": "ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¡",
           "tags": [
             "build",
             "vite"
@@ -307,5 +307,5 @@
       "isExpanded": true
     }
   ],
-  "exportedAt": "2026-02-24T13:24:56.805Z"
+  "exportedAt": "2026-02-24T13:25:40.365Z"
 }
