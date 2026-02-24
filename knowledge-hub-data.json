@@ -217,7 +217,7 @@
           "url": "https://react.dev",
           "title": "React Documentation",
           "description": "Official React docs",
-          "favicon": "âï¸",
+          "favicon": "Ã¢ÂÂÃ¯Â¸Â",
           "tags": [
             "react",
             "docs"
@@ -229,7 +229,7 @@
           "url": "https://tailwindcss.com",
           "title": "Tailwind CSS",
           "description": "Utility-first CSS framework",
-          "favicon": "ð¨",
+          "favicon": "Ã°ÂÂÂ¨",
           "tags": [
             "css",
             "tailwind"
@@ -241,7 +241,7 @@
           "url": "https://vitejs.dev",
           "title": "Vite",
           "description": "Next generation frontend tooling",
-          "favicon": "â¡",
+          "favicon": "Ã¢ÂÂ¡",
           "tags": [
             "build",
             "vite"
@@ -307,5 +307,5 @@
       "isExpanded": true
     }
   ],
-  "exportedAt": "2026-02-24T13:20:34.577Z"
+  "exportedAt": "2026-02-24T13:20:54.625Z"
 }
