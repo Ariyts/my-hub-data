@@ -1,0 +1,311 @@
+{
+  "folders": [
+    {
+      "id": "f1",
+      "name": "Work",
+      "type": "notes",
+      "parentId": null,
+      "createdAt": "2026-02-24T13:11:42.651Z",
+      "color": "#4CAF50",
+      "isExpanded": true
+    },
+    {
+      "id": "f2",
+      "name": "Personal",
+      "type": "notes",
+      "parentId": null,
+      "createdAt": "2026-02-24T13:11:42.651Z",
+      "color": "#2196F3",
+      "isExpanded": false
+    },
+    {
+      "id": "f3",
+      "name": "Git",
+      "type": "commands",
+      "parentId": null,
+      "createdAt": "2026-02-24T13:11:42.651Z",
+      "color": "#FF9800",
+      "isExpanded": true
+    },
+    {
+      "id": "f4",
+      "name": "Docker",
+      "type": "commands",
+      "parentId": null,
+      "createdAt": "2026-02-24T13:11:42.651Z",
+      "color": "#9C27B0",
+      "isExpanded": false
+    },
+    {
+      "id": "f5",
+      "name": "Dev Resources",
+      "type": "links",
+      "parentId": null,
+      "createdAt": "2026-02-24T13:11:42.651Z",
+      "color": "#FF5722",
+      "isExpanded": true
+    },
+    {
+      "id": "f6",
+      "name": "Coding",
+      "type": "prompts",
+      "parentId": null,
+      "createdAt": "2026-02-24T13:11:42.651Z",
+      "color": "#607D8B",
+      "isExpanded": true
+    }
+  ],
+  "notes": [
+    {
+      "id": "n1",
+      "folderId": "f1",
+      "title": "Project Ideas",
+      "type": "notes",
+      "content": "# Project Ideas\n\n## Knowledge Hub\nA personal knowledge management system with:\n- Notes with Markdown support\n- Command snippets\n- Link collections\n- AI prompt library\n\n## Features\n- **Sync** via GitHub\n- **Dark/Light** theme\n- **Offline** support with LocalStorage\n\n```javascript\nconst hub = new KnowledgeHub({\n  sync: true,\n  theme: \"dark\"\n});\n```\n\n> Start small, iterate fast.\n",
+      "tags": [
+        "project",
+        "ideas"
+      ],
+      "isFavorite": false,
+      "createdAt": "2026-02-24T13:11:42.651Z",
+      "updatedAt": "2026-02-24T13:12:02.097Z"
+    },
+    {
+      "id": "n2",
+      "folderId": "f2",
+      "title": "Goals 2025",
+      "type": "notes",
+      "content": "# Goals 2025\n\n## Technical\n- [ ] Learn Rust\n- [ ] Build 3 open source projects\n- [ ] Write 12 blog posts\n\n## Personal\n- [ ] Read 24 books\n- [ ] Exercise 4x/week\n\n## Financial\n- [ ] Emergency fund\n- [ ] Investments\n",
+      "tags": [
+        "goals",
+        "personal"
+      ],
+      "isFavorite": false,
+      "createdAt": "2026-02-24T13:11:42.651Z",
+      "updatedAt": "2026-02-24T13:11:42.651Z"
+    },
+    {
+      "folderId": "f1",
+      "title": "4",
+      "content": "# New Note\n4\nS444444444444",
+      "tags": [],
+      "isFavorite": false,
+      "type": "notes",
+      "id": "ekib9npejmm0mke3e",
+      "createdAt": "2026-02-24T13:12:04.442Z",
+      "updatedAt": "2026-02-24T13:12:14.915Z"
+    }
+  ],
+  "commands": [
+    {
+      "id": "c1",
+      "folderId": "f3",
+      "title": "Git Essentials",
+      "type": "commands",
+      "description": "Essential git commands for daily workflow",
+      "subItems": [
+        {
+          "id": "ci1",
+          "command": "git reset --hard HEAD~1",
+          "description": "Undo last commit (destructive)",
+          "language": "bash",
+          "tags": [
+            "reset",
+            "undo"
+          ],
+          "isFavorite": true
+        },
+        {
+          "id": "ci2",
+          "command": "git stash && git pull && git stash pop",
+          "description": "Pull with local changes saved",
+          "language": "bash",
+          "tags": [
+            "stash",
+            "pull"
+          ],
+          "isFavorite": false
+        },
+        {
+          "id": "ci3",
+          "command": "git log --oneline --graph --all",
+          "description": "Visual branch history",
+          "language": "bash",
+          "tags": [
+            "log",
+            "history"
+          ],
+          "isFavorite": true
+        },
+        {
+          "id": "ci4",
+          "command": "git cherry-pick <commit-hash>",
+          "description": "Apply specific commit to current branch",
+          "language": "bash",
+          "tags": [
+            "cherry-pick"
+          ],
+          "isFavorite": false
+        }
+      ],
+      "tags": [
+        "git",
+        "vcs"
+      ],
+      "createdAt": "2026-02-24T13:11:42.651Z",
+      "updatedAt": "2026-02-24T13:11:42.651Z",
+      "isExpanded": true
+    },
+    {
+      "id": "c2",
+      "folderId": "f4",
+      "title": "Docker Commands",
+      "type": "commands",
+      "description": "Common Docker operations",
+      "subItems": [
+        {
+          "id": "ci5",
+          "command": "docker ps -a",
+          "description": "List all containers",
+          "language": "bash",
+          "tags": [
+            "docker",
+            "containers"
+          ],
+          "isFavorite": false
+        },
+        {
+          "id": "ci6",
+          "command": "docker-compose up -d --build",
+          "description": "Rebuild and start services",
+          "language": "bash",
+          "tags": [
+            "compose",
+            "build"
+          ],
+          "isFavorite": true
+        },
+        {
+          "id": "ci7",
+          "command": "docker system prune -af",
+          "description": "Remove all unused data",
+          "language": "bash",
+          "tags": [
+            "cleanup"
+          ],
+          "isFavorite": false
+        }
+      ],
+      "tags": [
+        "docker",
+        "containers"
+      ],
+      "createdAt": "2026-02-24T13:11:42.651Z",
+      "updatedAt": "2026-02-24T13:11:42.651Z",
+      "isExpanded": false
+    }
+  ],
+  "links": [
+    {
+      "id": "l1",
+      "folderId": "f5",
+      "title": "Frontend Resources",
+      "type": "links",
+      "subItems": [
+        {
+          "id": "li1",
+          "url": "https://react.dev",
+          "title": "React Documentation",
+          "description": "Official React docs",
+          "favicon": "⚛️",
+          "tags": [
+            "react",
+            "docs"
+          ],
+          "isFavorite": true
+        },
+        {
+          "id": "li2",
+          "url": "https://tailwindcss.com",
+          "title": "Tailwind CSS",
+          "description": "Utility-first CSS framework",
+          "favicon": "🎨",
+          "tags": [
+            "css",
+            "tailwind"
+          ],
+          "isFavorite": true
+        },
+        {
+          "id": "li3",
+          "url": "https://vitejs.dev",
+          "title": "Vite",
+          "description": "Next generation frontend tooling",
+          "favicon": "⚡",
+          "tags": [
+            "build",
+            "vite"
+          ],
+          "isFavorite": false
+        }
+      ],
+      "tags": [
+        "frontend",
+        "docs"
+      ],
+      "createdAt": "2026-02-24T13:11:42.651Z",
+      "updatedAt": "2026-02-24T13:11:42.651Z",
+      "isExpanded": true
+    }
+  ],
+  "prompts": [
+    {
+      "id": "p1",
+      "folderId": "f6",
+      "title": "Code Review",
+      "type": "prompts",
+      "category": "Coding",
+      "subItems": [
+        {
+          "id": "pi1",
+          "title": "Code Review Prompt",
+          "prompt": "Please review the following {{language}} code and provide feedback on:\n1. Code quality and readability\n2. Performance optimizations\n3. Security concerns\n4. Best practices\n\n```{{language}}\n{{code}}\n```",
+          "variables": [
+            "{{language}}",
+            "{{code}}"
+          ],
+          "description": "Comprehensive code review assistant",
+          "tags": [
+            "review",
+            "code"
+          ],
+          "isFavorite": true
+        },
+        {
+          "id": "pi2",
+          "title": "Bug Fix Assistant",
+          "prompt": "I have a bug in my {{language}} code. Here's the error:\n{{error}}\n\nHere's the relevant code:\n```{{language}}\n{{code}}\n```\n\nPlease help me identify and fix the issue.",
+          "variables": [
+            "{{language}}",
+            "{{error}}",
+            "{{code}}"
+          ],
+          "description": "Help debugging code issues",
+          "tags": [
+            "debug",
+            "fix"
+          ],
+          "isFavorite": false
+        }
+      ],
+      "tags": [
+        "coding",
+        "review"
+      ],
+      "createdAt": "2026-02-24T13:11:42.651Z",
+      "updatedAt": "2026-02-24T13:11:42.651Z",
+      "isExpanded": true
+    }
+  ],
+  "exportedAt": "2026-02-24T13:12:46.410Z"
+}
